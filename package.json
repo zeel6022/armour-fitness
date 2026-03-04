@@ -1,6 +1,6 @@
 {
   "name": "first",
-  "homepage": "https://github.com/zeel6022/armour-fitness.git",
+  "homepage": "https://zeel6022.github.io/armour-fitness",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-       "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
