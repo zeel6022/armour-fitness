@@ -1,0 +1,89 @@
+
+          .navbar {
+            background: #000000;
+            color: #fff;
+            position: sticky;
+            top: 0;
+            padding: 0.5rem 1rem;
+            z-index: 1000;
+          }
+          .navbar-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 100%;
+            margin: 0 auto;
+          }
+          .navbar-logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+          }
+          .navbar-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 2rem;
+            cursor: pointer;
+          }
+          .navbar-menu {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+          }
+          .navbar-item {
+            margin-left: 1.5rem;
+          }
+          .navbar-item a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+          }
+          @media (max-width: 897px) {
+            .navbar-toggle {
+              display: block;
+            }
+            .navbar-menu {
+              position: absolute;
+              top: 60px;
+              left: 0;
+              width: 100%;
+              background: #222;
+              flex-direction: column;
+              align-items: flex-start;
+              max-height: 0;
+              overflow: hidden;
+              transition: max-height 0.3s ease;
+            }
+            .navbar-menu.active {
+              max-height: 300px;
+              padding-bottom: 1rem;
+            }
+            .navbar-item {
+              margin: 1rem 0 0 1rem;
+            }
+          }
+          
+          
+          
+        .navbar-item:hover a {
+            color: #2196f3;
+            position: relative;
+        }
+
+        .navbar-item:hover a::after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 45%;
+            bottom: -6px;
+            width: 10%;
+            height: 3px;
+            background: #2196f3;
+            border-radius: 2px;
+        }
+        

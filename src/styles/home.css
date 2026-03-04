@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../assets/armour/fonts/helvetica-similar-fonts/helvetica-similar-fonts/nimbus-sans-l/NimbusSanL-Bol.otf') format('otf');
+    
+}
+.hero_details{
+    font-family:'Helvetica Neue';
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    
+}
+.sec4{
+    width: 75%;
+    height: auto;
+}
+.fter{
+    margin-top: 14rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+ @media (max-width: 1450px) {
+    .sec4{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 5rem;
+    
+    }
+    .cards4{
+        margin: 0;
+        padding: 0;
+        z-index: 10;
+    }
+    .cards3{
+        margin: 0;
+        padding: 0;
+            margin-left: 20%;
+    }
+@media (max-width:1320px) {
+    .sec5main_content{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        margin: 0;
+    }
+    .sec5cards{
+    grid-template-columns: auto auto auto auto;
+    
+   }
+    .sec5_span{
+      margin-top: -30rem;
+      margin-left: 0%;
+        
+    }
+    .sec5cards{
+        position: relative;
+        margin: 0;
+        gap:5px;
+    }
+    .card5_item1{
+        transform: rotate(7deg);
+        width: auto;
+    }
+    .card5_item2{
+        transform: rotate(-7deg);
+        width: auto;
+    }
+    .card5_item3{
+        transform: rotate(-7deg);
+        width: auto;
+    }
+    .card5_item4{
+        transform: rotate(7deg);
+        width: auto;
+    }
+    .s5c{
+        margin: 0;
+       
+    }
+    .p_div{
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        /* margin: 0; */
+        /* gap: 2px; */
+    }
+    
+}
+
+
+ @media (max-width: 1000px) {
+    .sec4{
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 5rem;
+    
+    }
+    .sec2_details{
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        text-align: center;
+        /* margin-left: 0; */
+    }
+   .cards1,.cards4,.cards1,.cards2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-right:0;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+     flex-direction:row;
+   }
+   .cards1{
+   justify-content: flex-start;
+   }
+   .cards2{
+   justify-content: flex-end;
+   }
+   .cards3{
+   justify-content: flex-start;
+   }
+   .cards4{
+   justify-content: flex-end;
+   z-index: 0;
+   }
+           .sec5_span {
+            display: flex;
+            margin: 0;
+            flex-direction: column;
+            gap: 12rem;
+            margin-bottom: 24rem;
+        }
+   .bonuses{
+    margin: 0;
+   }
+   .sec4_second>p{
+    text-wrap:auto;
+   }
+  
+}
+@media (max-width:725px) {
+    .hero_details{
+        position: relative;
+        margin-top: 0;
+
+    }
+    .hero_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sec2_details{
+        margin-top: 10rem;
+        margin-left: 5rem;
+    }
+.sec5cards{
+    grid-template-columns: auto auto ;
+    
+    
+   }
+   .sec5_span{
+    margin-top: -15rem;
+   }
+
+
+}
+
+
+
+ @media (max-width: 475px) {
+    .card2_div{
+        /* position: relative; */
+        margin: 0;
+        margin-left:0;
+        margin-right: 5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .card3_div{
+        /* position: relative; */
+        margin: 0;
+        margin-left:0;
+        margin-right: 5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .hero_details{
+flex-direction: column;
+
+    }
+    .hero_btn{
+        display: none;
+    }
+    .sec5cards{
+    grid-template-columns: auto;
+    
+    
+   }
+   .sec5_span{
+    margin-top: -50rem;
+    gap: 100px;
+   }
+   .bonuses{
+    font-size: 3rem;
+
+   }
+   .for_you{
+    font-size: 3rem;
+   }
+
+
+
+}
+
+
+
+}
